@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
+body {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  background: #F4F7FA;
+}
+
+a {
+  color: #000000;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bcp-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bcp-justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bcp-align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-block {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.search-block .bcp-btn {
+  background-color: #00A8FF;
+  line-height: 21px;
+  border: 0;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 7px 25px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.not-found-block .dcp-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.not-found-block .dcp-flex p {
+  margin-right: 15px;
+}
+
+.not-found-block .dcp-flex .bcp-btn span.icon {
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+.accordian {
+  margin-bottom: 15px;
+}
+
+.accordian .acc__card {
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.accordian .acc__title {
+  cursor: pointer;
+  display: block;
+  padding: 1em 4em 1em 1.5em;
+  position: relative;
+  text-align: left;
+  background: #f7f7f7;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.accordian .acc__title::after {
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  position: absolute;
+  right: 18px;
+  content: " ";
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (max-width: 767px) {
+  .accordian .acc__title::after {
+    top: 16px !important;
+  }
+}
+
+.accordian .acc__title::before {
+  content: " ";
+  top: 0;
+  background-color: #ebebeb;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  display: inline-block;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .accordian .acc__title {
+    padding-right: 235px;
+  }
+}
+
+.accordian .acc__title .date-block {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-weight: 500;
+  color: #7b7b7b;
+}
+
+@media (max-width: 768px) {
+  .accordian .acc__title .date-block {
+    position: relative;
+    right: 0;
+    top: auto;
+    -webkit-transform: none;
+            transform: none;
+    margin-top: 5px;
+  }
+}
+
+.accordian .acc__title.active::after {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  top: 22px;
+}
+
+@media (max-width: 768px) {
+  .accordian .acc__title.active::after {
+    top: 32px;
+  }
+}
+
+.acc__panel {
+  background: #f8f8f8;
+  /* color: $color-gry;*/
+  display: none;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  border-top: 1px solid #cacaca;
+}
+
+.acc__panel p {
+  font-size: 15px;
+}
+
+.acc__panel ul {
+  margin-top: 25px;
+}
+
+.acc__panel ul li {
+  list-style: none;
+}
+
+.solution-found-block h3 {
+  font-size: 26px;
+  padding: 15px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  margin-top: 0 !important;
+}
+
+.solution-found-block .dcp-flex {
+  margin-top: 30px;
+}
+
+.search-block.global-search-kb-result {
+    padding: 25px 15px 10px;
+}
+.search-block.global-search-kb-result .not-found-block.solution-found-block {
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+}
+.search-block.global-search-kb-result .not-found-block.solution-found-block h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 0;
+    text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */

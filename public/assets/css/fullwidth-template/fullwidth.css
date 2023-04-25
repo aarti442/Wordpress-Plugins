@@ -1,0 +1,82 @@
+@media (min-width: 992px) {
+  .wp-block-columns.bcp-custom-block {
+     -ms-flex-wrap: wrap; flex-wrap: wrap;
+      margin: 0px -2%;
+  }
+  .wp-block-columns.bcp-custom-block .wp-block-column {
+      margin: 0;
+      margin: 0 2%;
+      margin-bottom: 28px;
+  }
+  .wp-block-columns.bcp-custom-block.bcp-custom-block-2 .wp-block-column {
+       -ms-flex-preferred-size: 46%; flex-basis: 46%;
+  }
+  .wp-block-columns.bcp-custom-block.bcp-custom-block-3 .wp-block-column {
+      -ms-flex-preferred-size: 29.33%;flex-basis: 29.33%;
+  }
+  .wp-block-columns.bcp-custom-block.bcp-custom-block-1 .wp-block-column {
+      -ms-flex-preferred-size: 96%;flex-basis: 96%;
+  }
+}
+.post-inner.thin {
+    padding-top: 50px;
+}
+.global-search-section h2 {
+  margin-top: 0;
+}
+table {
+  font-size: initial;
+}
+.dcp-content-table h2 {
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+.dcp-content-table .dcp-table tr td  p b {
+  font-size: 15px !important;
+}
+.bcp-row .custom-select {
+  font-size: inherit !important;
+}
+.bcp-chart-1 tspan, .bcp-chart-2 tspan, .bcp-chart-3 tspan, .bcp-chart-4 tspan {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.case-listing-block .add-case-block form {
+    margin-top: 25px;
+}
+.acc__panel p {
+  font-size: 15px !important;
+}
+.search-block .bcp-form-group input {
+      font-size: inherit !important;
+}
+.acc__title , .acc__panel{
+  font-size: 16px !important;
+}
+.listing-block h6 {
+  max-width: -webkit-max-content;max-width: -moz-max-content;max-width: max-content;
+}
+.description-details-2 .case-details-description .tabs .tab-link, .bcp-detail-style-1 .case-details-description .tabs .tab-link {
+      padding-right: 8px !important;
+          margin-bottom: 5px !important;
+}
+.case-details-view .bcp-btn p {
+  padding-bottom: 0 !important;
+}
+.case-details-view h3 {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .case-details-view, .case-details-description {
+      padding: 18px !important;
+  }
+  .description-details-2 .details-desription-block {
+    padding: 10px 20px 5px 20px !important;
+  }
+  .entry-content .wp-block-columns {
+    -webkit-box-orient: inherit !important;-webkit-box-direction: inherit !important;-ms-flex-direction: inherit !important;flex-direction: inherit !important;
+  }
+
+}

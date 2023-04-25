@@ -1,0 +1,116 @@
+[
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0089",
+        "biztechcs__Module_Name__c": "contentdocument",
+        "biztechcs__View_Name__c": "list",
+        "biztechcs__Layout_Data__c": "{\"Title\":\"Title\",\"CreatedDate\":\"Created Date\"}",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0089",
+        "biztechcs__Module_Name__c": "contentdocument",
+        "biztechcs__View_Name__c": "detail",
+        "biztechcs__Layout_Data__c": "{\"Title\":\"Title\",\"Description\":\"Description\",\"FileExtension\":\"FileExtension\",\"CreatedDate\":\"Created Date\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Title\",\"name\":\"Title\"},\"Right_field\":{\"label\":\"Description\",\"name\":\"Description\"}},{\"Left_field\":{\"label\":\"FileExtension\",\"name\":\"FileExtension\"},\"Right_field\":{\"label\":\"Created Date\",\"name\":\"CreatedDate\"}}],\"Section_name\":\"File Information\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0089",
+        "biztechcs__Module_Name__c": "contentdocument",
+        "biztechcs__View_Name__c": "edit",
+        "biztechcs__Layout_Data__c": "{\"Attachment\":\"Attachment\",\"Description\":\"Description\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Attachment\",\"name\":\"Attachment\"},\"Right_field\":{\"label\":\"Description\",\"name\":\"Description\"}},{\"Left_field\":{\"label\":\"FileExtension\",\"name\":\"FileExtension\"}}],\"Section_name\":\"File Information\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0091",
+        "biztechcs__Module_Name__c": "attachment",
+        "biztechcs__View_Name__c": "list",
+        "biztechcs__Layout_Data__c": "{\"Name\":\"Name\",\"CreatedDate\":\"Created Date\"}",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0091",
+        "biztechcs__Module_Name__c": "attachment",
+        "biztechcs__View_Name__c": "detail",
+        "biztechcs__Layout_Data__c": "{\"Name\":\"Name\",\"Description\":\"Description\",\"ContentType\":\"ContentType\",\"CreatedDate\":\"Created Date\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Name\",\"name\":\"Name\"},\"Right_field\":{\"label\":\"Description\",\"name\":\"Description\"}},{\"Left_field\":{\"label\":\"ContentType\",\"name\":\"ContentType\"},\"Right_field\":{\"label\":\"Created Date\",\"name\":\"CreatedDate\"}}],\"Section_name\":\"Attachment Details\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0091",
+        "biztechcs__Module_Name__c": "attachment",
+        "biztechcs__View_Name__c": "edit",
+        "biztechcs__Layout_Data__c": "{\"Name\":\"Name\",\"Description\":\"Description\",\"Body\":\"Body\", \"CreatedDate\":\"Created Date\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Attachment\",\"name\":\"Body\"},\"Right_field\":{\"label\":\"Description\",\"name\":\"Description\"}}],\"Section_name\":\"Attachment Details\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0550",
+        "biztechcs__Module_Name__c": "contentnote",
+        "biztechcs__View_Name__c": "list",
+        "biztechcs__Layout_Data__c": "{\"Title\":\"Title\",\"TextPreview\":\"Text Preview\",\"CreatedDate\":\"Created\"}",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0550",
+        "biztechcs__Module_Name__c": "contentnote",
+        "biztechcs__View_Name__c": "detail",
+        "biztechcs__Layout_Data__c": "{\"Title\":\"Title\",\"Content\":\"Content\",\"TextPreview\":\"Text Preview\",\"ContentSize\":\"Content Size\",\"FileType\":\"File Type\",\"FileExtension\":\"File Extension\",\"IsReadOnly\":\"Is Readonly\", \"CreatedDate\":\"Created\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Title\",\"name\":\"Title\"},\"Right_field\":{\"label\":\"Content\",\"name\":\"Content\"}},{\"Left_field\":{\"label\":\"Text Preview\",\"name\":\"TextPreview\"},\"Right_field\":{\"label\":\"Content Size\",\"name\":\"ContentSize\"}},{\"Left_field\":{\"label\":\"File Type\",\"name\":\"FileType\"},\"Right_field\":{\"label\":\"File Extension\",\"name\":\"FileExtension\"}},{\"Left_field\":{\"label\":\"Is Readonly\",\"name\":\"IsReadOnly\"},\"Right_field\":{\"label\":\"Created\",\"name\":\"CreatedDate\"}}],\"Section_name\":\"Task Information\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    },
+    {
+        "attributes": {
+            "type": "Layout__c",
+            "url": "/services/data/v46.0/sobjects/Layout__c/a006F00003CJQ5lQAH"
+        },
+        "Name": "L-0550",
+        "biztechcs__Module_Name__c": "contentnote",
+        "biztechcs__View_Name__c": "edit",
+        "biztechcs__Layout_Data__c": "{\"Title\":\"Title\",\"Content\":\"Content\"}",
+        "biztechcs__Section_Layout_Data__c": "[{\"Field_rows\":[{\"Left_field\":{\"label\":\"Title\",\"name\":\"Title\"},\"Right_field\":{\"label\":\"Content\",\"name\":\"Content\"}}],\"Section_name\":\"Task Information\",\"number\":1,\"setEdit\":false}]",
+        "biztechcs__Customer_Portal_Role__c": "",
+        "Id": ""
+    }
+]

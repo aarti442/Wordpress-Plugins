@@ -1,0 +1,1819 @@
+# Copyright (C) 2020 CRMJetty
+# This file is distributed under the same license as the Salesforce Customer Portal plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Salesforce Customer Portal 5.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/customer-portal-salesforce-v2\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-18T12:19:05+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: bcp_portal\n"
+
+#. Plugin Name of the plugin
+msgid "Salesforce Customer Portal"
+msgstr ""
+
+#. Description of the plugin
+msgid "Reduce operational costs and improve customer satisfaction by empowering customers to get online support and get their complains and queries addressed through Customer Portal that integrates the user friendly front end interface of Wordpress and the back end data sourcing from Salesforce."
+msgstr ""
+
+#. Author of the plugin
+msgid "CRMJetty"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.crmjetty.com/"
+msgstr ""
+
+#: admin/class-bcp-customer-portal-admin-assets.php:104
+msgid "Salesforce Portal"
+msgstr ""
+
+#: admin/includes/blocks.php:841
+msgid "Select Page type"
+msgstr ""
+
+#: admin/includes/blocks.php:1037
+msgid "Portal Page"
+msgstr ""
+
+#: admin/includes/blocks.php:1040
+msgid "Website Page"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:26
+#: admin/assets/js/admin-block.js:497
+msgid "Portal Login"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:62
+#: admin/assets/js/admin-block.js:371
+msgid "Portal Registration"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:81
+msgid "Portal Profile"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:100
+msgid "Portal Forgot Password"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:119
+#: admin/assets/js/admin-block.js:715
+msgid "Portal Reset Password"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:138
+msgid "Portal Manage"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:156
+msgid "Portal List Page"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:176
+msgid "Portal Detail Page"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:196
+msgid "Portal Dashboard Page"
+msgstr ""
+
+#: admin/includes/class-bcp-default-content.php:283
+msgid "Portal Edit Page"
+msgstr ""
+
+#: admin/includes/custom-menu.php:169
+msgid "BCP Modules"
+msgstr ""
+
+#: admin/includes/custom-menu.php:228
+#: admin/includes/display-settings.php:361
+#: admin/includes/display-settings.php:441
+#: includes/page-templates/page-crm-standalone.php:111
+msgid "Logout"
+msgstr ""
+
+#: admin/includes/display-settings.php:36
+msgid "Customer Portal"
+msgstr ""
+
+#: admin/includes/display-settings.php:37
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/display-settings.php:38
+msgid "Manage Pages"
+msgstr ""
+
+#: admin/includes/display-settings.php:316
+msgid "More"
+msgstr ""
+
+#: admin/includes/display-settings.php:342
+#: admin/includes/display-settings.php:425
+msgid "My Account"
+msgstr ""
+
+#: admin/includes/display-settings.php:351
+#: admin/includes/display-settings.php:431
+#: includes/page-templates/page-crm-standalone.php:106
+msgid "Profile"
+msgstr ""
+
+#: admin/includes/display-settings.php:499
+#: admin/includes/log.php:222
+msgid "Please check license key is configured or not."
+msgstr ""
+
+#: admin/includes/display-settings.php:527
+msgid "Settings saved."
+msgstr ""
+
+#: admin/includes/display-settings.php:595
+msgid "Authentication successful."
+msgstr ""
+
+#: admin/includes/display-settings.php:601
+#: admin/includes/display-settings.php:607
+#: admin/includes/display-settings.php:612
+#: admin/includes/display-settings.php:618
+msgid "Authentication failed."
+msgstr ""
+
+#: admin/includes/display-settings.php:601
+#: admin/includes/display-settings.php:607
+#: admin/includes/display-settings.php:612
+#: admin/includes/display-settings.php:618
+msgid "Possible reasons"
+msgstr ""
+
+#: admin/includes/display-settings.php:622
+msgid "SSL certificate is necessary to integrate portal with salesforce."
+msgstr ""
+
+#: admin/includes/display-settings.php:627
+msgid "Salesforce Customer Portal Settings"
+msgstr ""
+
+#: admin/includes/display-settings.php:643
+msgid "License validation failed! Please use the license key provided from CRMJetty or contact us at"
+msgstr ""
+
+#: admin/includes/display-settings.php:653
+#: admin/partials/authentication.php:21
+msgid "Authentication"
+msgstr ""
+
+#: admin/includes/display-settings.php:654
+msgid "General"
+msgstr ""
+
+#: admin/includes/display-settings.php:656
+#: admin/partials/authentication.php:98
+#: includes/shortcodes.php:94
+msgid "Password"
+msgstr ""
+
+#: admin/includes/display-settings.php:660
+msgid "Layout"
+msgstr ""
+
+#: admin/includes/display-settings.php:666
+msgid "reCaptcha"
+msgstr ""
+
+#: admin/includes/display-settings.php:667
+msgid "Menu"
+msgstr ""
+
+#: admin/includes/display-settings.php:717
+#: admin/includes/log.php:67
+msgid "Save Changes"
+msgstr ""
+
+#: admin/includes/display-settings.php:769
+msgid "Does it support custom modules of CRM?"
+msgstr ""
+
+#: admin/includes/display-settings.php:770
+msgid "Yes,it is providing custom modules support with extra efforts. You can contact us for more details."
+msgstr ""
+
+#: admin/includes/display-settings.php:773
+msgid "For adding custom module does the customer need to provide any details?"
+msgstr ""
+
+#: admin/includes/display-settings.php:774
+msgid "Yes, customer need to provide their FTP and site admin details for both the frameworks(CRM and CMS)along with the list of modules which they want to enable for the portal."
+msgstr ""
+
+#: admin/includes/display-settings.php:777
+msgid "What data is required to make connection with CRM?"
+msgstr ""
+
+#: admin/includes/display-settings.php:778
+msgid "You just need your CRM instance URL, CRM admin username, CRM admin password and your security token to make connection. For further details you can review our user manual guide."
+msgstr ""
+
+#: admin/includes/display-settings.php:781
+msgid "Does it only support HTTPS?"
+msgstr ""
+
+#: admin/includes/display-settings.php:782
+msgid "Yes. As per Salesforce Standards your Portal must have valid SSL."
+msgstr ""
+
+#: admin/includes/log.php:23
+msgid "Manage Logs"
+msgstr ""
+
+#: admin/includes/log.php:49
+msgid "Salesforce Customer Portal Logs"
+msgstr ""
+
+#: admin/includes/log.php:51
+msgid "Enable Log Settings"
+msgstr ""
+
+#: admin/includes/log.php:56
+msgid "Enable Logs"
+msgstr ""
+
+#: admin/includes/log.php:82
+msgid "Log Console"
+msgstr ""
+
+#: admin/includes/log.php:86
+msgid "To save debug log file permission require to be \"0777\" (read, write, & execute for owner, group and others). Current file permission is "
+msgstr ""
+
+#: admin/includes/log.php:104
+msgid "Clear Logs"
+msgstr ""
+
+#: admin/includes/log.php:109
+msgid "Prev"
+msgstr ""
+
+#: admin/includes/log.php:114
+msgid "Next"
+msgstr ""
+
+#: admin/includes/log.php:127
+msgid "No."
+msgstr ""
+
+#: admin/includes/log.php:128
+#: admin/includes/log.php:178
+msgid "URL"
+msgstr ""
+
+#: admin/includes/log.php:129
+#: admin/includes/log.php:182
+msgid "Method"
+msgstr ""
+
+#: admin/includes/log.php:130
+#: admin/includes/log.php:186
+msgid "Request Time"
+msgstr ""
+
+#: admin/includes/log.php:131
+#: admin/includes/log.php:190
+msgid "Request"
+msgstr ""
+
+#: admin/includes/log.php:132
+#: admin/includes/log.php:194
+msgid "Response Time"
+msgstr ""
+
+#: admin/includes/log.php:133
+#: admin/includes/log.php:198
+msgid "Response"
+msgstr ""
+
+#: admin/includes/log.php:134
+#: admin/includes/log.php:202
+msgid "Status"
+msgstr ""
+
+#: admin/includes/log.php:135
+msgid "Action"
+msgstr ""
+
+#: admin/includes/log.php:157
+msgid "Success"
+msgstr ""
+
+#: admin/includes/log.php:159
+msgid "Failed"
+msgstr ""
+
+#: admin/includes/log.php:165
+msgid "View"
+msgstr ""
+
+#: admin/includes/log.php:211
+msgid "No record(s) found."
+msgstr ""
+
+#: admin/partials/authentication.php:1
+msgid "License"
+msgstr ""
+
+#: admin/partials/authentication.php:5
+msgid "License Key"
+msgstr ""
+
+#: admin/partials/authentication.php:26
+msgid "Consumer Key"
+msgstr ""
+
+#: admin/partials/authentication.php:50
+msgid "Consumer Secret"
+msgstr ""
+
+#: admin/partials/authentication.php:74
+#: includes/shortcodes.php:93
+msgid "Username"
+msgstr ""
+
+#: admin/partials/authentication.php:101
+msgid "Note: "
+msgstr ""
+
+#: admin/partials/authentication.php:101
+msgid "If password is blank then authentication will not check."
+msgstr ""
+
+#: admin/partials/authentication.php:105
+msgid "Security Token"
+msgstr ""
+
+#: admin/partials/authentication.php:130
+msgid "Operation mode"
+msgstr ""
+
+#: admin/partials/authentication.php:137
+msgid "Sandbox"
+msgstr ""
+
+#: admin/partials/authentication.php:138
+msgid "Live"
+msgstr ""
+
+#: admin/partials/general.php:1
+msgid "General Settings"
+msgstr ""
+
+#: admin/partials/general.php:5
+msgid "Name"
+msgstr ""
+
+#: admin/partials/general.php:11
+msgid "Enable Multilanguage"
+msgstr ""
+
+#: admin/partials/general.php:15
+msgid "Enable portal in multiple language."
+msgstr ""
+
+#: admin/partials/general.php:35
+msgid "Portal Language"
+msgstr ""
+
+#: admin/partials/general.php:65
+msgid "Default Portal Language"
+msgstr ""
+
+#: admin/partials/general.php:109
+msgid "Logo"
+msgstr ""
+
+#: admin/partials/general.php:126
+msgid "Remove Media"
+msgstr ""
+
+#: admin/partials/general.php:127
+msgid "Add Media"
+msgstr ""
+
+#: admin/partials/general.php:171
+msgid "Enable Email Verification"
+msgstr ""
+
+#: admin/partials/general.php:177
+msgid "This feature will enable email verification for portal users after registration."
+msgstr ""
+
+#: admin/partials/general.php:181
+msgid "Enable User Approval"
+msgstr ""
+
+#: admin/partials/general.php:187
+msgid "This feature will allow CRM admin to approve customer after registration."
+msgstr ""
+
+#: admin/partials/general.php:191
+msgid "Two - Step Authentication"
+msgstr ""
+
+#: admin/partials/general.php:198
+msgid "This feature will enable Two - Step Authentication for signin from portal."
+msgstr ""
+
+#: admin/partials/general.php:202
+msgid "Mobile Menu Title"
+msgstr ""
+
+#: admin/partials/general.php:208
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/partials/general.php:214
+msgid "Standalone Footer Text"
+msgstr ""
+
+#: admin/partials/knowledge-base.php:4
+msgid "Knowledge Base Settings"
+msgstr ""
+
+#: admin/partials/knowledge-base.php:10
+msgid "Organization Prefix"
+msgstr ""
+
+#: admin/partials/knowledge-base.php:13
+msgid "Please refer user manual to get prefix, User prefix without two underscores, \"__\""
+msgstr ""
+
+#: admin/partials/layout.php:2
+msgid "Layout settings"
+msgstr ""
+
+#: admin/partials/layout.php:6
+msgid "Portal Template"
+msgstr ""
+
+#: admin/partials/layout.php:12
+msgid "CRM Standalone Template"
+msgstr ""
+
+#: admin/partials/layout.php:13
+msgid "Default Template"
+msgstr ""
+
+#: admin/partials/layout.php:18
+msgid "Theme Color"
+msgstr ""
+
+#: admin/partials/menu.php:2
+msgid "Menu Settings"
+msgstr ""
+
+#: admin/partials/menu.php:11
+msgid "Menu Location"
+msgstr ""
+
+#: admin/partials/menu.php:22
+#: admin/partials/menu.php:52
+msgid "select"
+msgstr ""
+
+#: admin/partials/menu.php:42
+msgid "Menu Selection"
+msgstr ""
+
+#: admin/partials/menu.php:73
+msgid "Please select at least one menu location in menu %s here."
+msgstr ""
+
+#: admin/partials/page.php:6
+msgid "Log In Page"
+msgstr ""
+
+#: admin/partials/page.php:11
+#: admin/partials/page.php:26
+#: admin/partials/page.php:41
+#: admin/partials/page.php:56
+#: admin/partials/page.php:71
+#: admin/partials/page.php:86
+#: admin/partials/page.php:101
+#: admin/partials/page.php:116
+#: admin/partials/page.php:131
+#: admin/partials/page.php:146
+msgid "Select a page"
+msgstr ""
+
+#: admin/partials/page.php:21
+msgid "Registration Page"
+msgstr ""
+
+#: admin/partials/page.php:36
+msgid "Profile Page"
+msgstr ""
+
+#: admin/partials/page.php:51
+msgid "Forgot Password Page"
+msgstr ""
+
+#: admin/partials/page.php:66
+msgid "Reset Password Page"
+msgstr ""
+
+#: admin/partials/page.php:81
+msgid "Manage Page"
+msgstr ""
+
+#: admin/partials/page.php:96
+msgid "List Page"
+msgstr ""
+
+#: admin/partials/page.php:111
+msgid "Detail Page"
+msgstr ""
+
+#: admin/partials/page.php:126
+msgid "Dashboard Page"
+msgstr ""
+
+#: admin/partials/page.php:141
+msgid "Add/Edit Page"
+msgstr ""
+
+#: admin/partials/password.php:2
+msgid "Password settings"
+msgstr ""
+
+#: admin/partials/password.php:6
+msgid "Enable"
+msgstr ""
+
+#: admin/partials/password.php:26
+msgid "Maximum Login Attempts"
+msgstr ""
+
+#: admin/partials/password.php:37
+msgid "Lockout Effective Period"
+msgstr ""
+
+#: admin/partials/password.php:50
+msgid "Minutes"
+msgstr ""
+
+#: admin/partials/recaptcha.php:2
+msgid "reCaptcha Settings"
+msgstr ""
+
+#: admin/partials/recaptcha.php:11
+msgid "reCaptcha Site Key"
+msgstr ""
+
+#: admin/partials/recaptcha.php:15
+msgid "reCaptcha Secret Key"
+msgstr ""
+
+#: includes/actions.php:65
+#: includes/actions.php:84
+#: includes/actions.php:3257
+#: includes/actions.php:3884
+#: includes/actions.php:3894
+#: includes/actions.php:3963
+#: public/assets/js/common/front-manage-page.js:198
+msgid "You don't have sufficient permission to access this data."
+msgstr ""
+
+#: includes/actions.php:289
+#: public/partials/form/style_1.php:246
+#: public/partials/form/style_2.php:246
+#: public/partials/form/style_3.php:246
+msgid "Attachment"
+msgstr ""
+
+#: includes/actions.php:290
+#: public/partials/detail/style_1.php:129
+#: public/partials/detail/style_2.php:126
+msgid "Attachments"
+msgstr ""
+
+#: includes/actions.php:296
+msgid "Call"
+msgstr ""
+
+#: includes/actions.php:297
+msgid "Calls"
+msgstr ""
+
+#: includes/actions.php:303
+msgid "Knowledge Base Article"
+msgstr ""
+
+#: includes/actions.php:304
+msgid "Knowledge Base Articles"
+msgstr ""
+
+#: includes/actions.php:310
+msgid "Note"
+msgstr ""
+
+#: includes/actions.php:311
+msgid "Notes"
+msgstr ""
+
+#: includes/actions.php:326
+msgid "Please verify your email to login."
+msgstr ""
+
+#: includes/actions.php:329
+msgid "Account approval pending! Kindly contact your administrator."
+msgstr ""
+
+#: includes/actions.php:332
+msgid "Incorrect Username or Password or Don't have an account yet."
+msgstr ""
+
+#: includes/actions.php:362
+#: includes/actions.php:653
+#: includes/actions.php:923
+msgid "Secret key of reCaptcha is not properly configured. Please contact to administrator."
+msgstr ""
+
+#: includes/actions.php:476
+msgid "Otp Send Successfully."
+msgstr ""
+
+#: includes/actions.php:480
+#: includes/actions.php:516
+msgid "Invalid otp."
+msgstr ""
+
+#: includes/actions.php:583
+msgid "Confirm password must match."
+msgstr ""
+
+#: includes/actions.php:608
+msgid "Your password has been updated successfully."
+msgstr ""
+
+#: includes/actions.php:610
+#: includes/actions.php:2569
+msgid "Enter a valid password"
+msgstr ""
+
+#: includes/actions.php:618
+msgid "Invalid Password!"
+msgstr ""
+
+#: includes/actions.php:624
+msgid "Please enter value in required fields."
+msgstr ""
+
+#: includes/actions.php:667
+#: includes/actions.php:679
+msgid "Your reset password link has been sent successfully."
+msgstr ""
+
+#: includes/actions.php:674
+msgid "Email does not exist."
+msgstr ""
+
+#: includes/actions.php:700
+#: public/partials/detail/casecomments_1.php:74
+#: public/partials/detail/casecomments_2.php:77
+#: public/partials/detail/notes_1.php:52
+msgid "Comment"
+msgstr ""
+
+#: includes/actions.php:713
+msgid "The form has expired due to inactivity. Please try again."
+msgstr ""
+
+#: includes/actions.php:785
+#: includes/actions.php:862
+#: includes/actions.php:875
+#: includes/actions.php:885
+#: includes/actions.php:896
+#: includes/actions.php:2491
+#: includes/shortcodes.php:147
+#: includes/shortcodes.php:534
+#: public/partials/detail/attachment_1.php:107
+#: public/partials/detail/casecomments_1.php:99
+#: public/partials/detail/casecomments_2.php:102
+#: public/partials/detail/notes_1.php:78
+#: public/partials/form/style_1.php:329
+#: public/partials/form/style_1.php:341
+#: public/partials/form/style_1.php:400
+#: public/partials/form/style_2.php:329
+#: public/partials/form/style_2.php:341
+#: public/partials/form/style_2.php:400
+#: public/partials/form/style_3.php:329
+#: public/partials/form/style_3.php:341
+#: public/partials/form/style_3.php:400
+#: public/assets/js/form/bcp-form.js:288
+msgid "This field is required."
+msgstr ""
+
+#: includes/actions.php:795
+#: public/partials/form/style_1.php:343
+#: public/partials/form/style_2.php:343
+#: public/partials/form/style_3.php:343
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/actions.php:808
+#: public/partials/form/style_1.php:316
+#: public/partials/form/style_1.php:325
+#: public/partials/form/style_1.php:347
+#: public/partials/form/style_1.php:349
+#: public/partials/form/style_1.php:350
+#: public/partials/form/style_2.php:316
+#: public/partials/form/style_2.php:325
+#: public/partials/form/style_2.php:347
+#: public/partials/form/style_2.php:349
+#: public/partials/form/style_2.php:350
+#: public/partials/form/style_3.php:316
+#: public/partials/form/style_3.php:325
+#: public/partials/form/style_3.php:347
+#: public/partials/form/style_3.php:349
+#: public/partials/form/style_3.php:350
+msgid "Please enter a valid number."
+msgstr ""
+
+#: includes/actions.php:868
+msgid "Please add any of the supported file format."
+msgstr ""
+
+#: includes/actions.php:949
+#: includes/actions.php:950
+msgid "You have successfully registered."
+msgstr ""
+
+#: includes/actions.php:954
+msgid "There is something error while signup. Please contact to administrator."
+msgstr ""
+
+#: includes/actions.php:1101
+msgid "Profile updated successfully."
+msgstr ""
+
+#: includes/actions.php:1251
+msgid "%s updated successfully."
+msgstr ""
+
+#: includes/actions.php:1253
+msgid "%s added successfully."
+msgstr ""
+
+#: includes/actions.php:1265
+msgid "There is some error occuered while adding data. Please contact to administrator"
+msgstr ""
+
+#: includes/actions.php:1278
+msgid "Please set layout."
+msgstr ""
+
+#: includes/actions.php:1404
+#: public/partials/detail/attachment_1.php:31
+#: public/partials/list/style_1.php:376
+#: public/partials/list/style_1.php:378
+#: public/partials/list/style_2.php:378
+#: public/partials/list/style_3.php:375
+msgid "Preview"
+msgstr ""
+
+#: includes/actions.php:1406
+#: public/partials/detail/attachment_1.php:33
+#: public/partials/list/style_1.php:367
+#: public/partials/list/style_1.php:369
+#: public/partials/list/style_2.php:370
+#: public/partials/list/style_3.php:367
+msgid "Download"
+msgstr ""
+
+#: includes/actions.php:1419
+#: public/partials/detail/attachment_1.php:46
+msgid "Read more"
+msgstr ""
+
+#: includes/actions.php:1422
+#: public/partials/detail/attachment_1.php:49
+msgid "Read More"
+msgstr ""
+
+#: includes/actions.php:1423
+#: public/partials/detail/attachment_1.php:50
+msgid "Read Less"
+msgstr ""
+
+#: includes/actions.php:1954
+msgid "Every 24 Hours"
+msgstr ""
+
+#: includes/actions.php:2065
+#: includes/actions.php:2405
+#: includes/actions.php:2418
+#: public/partials/detail/style_1.php:63
+#: public/partials/detail/style_1.php:66
+#: public/partials/detail/style_2.php:55
+#: public/partials/detail/style_2.php:58
+#: public/partials/list/style_1.php:42
+#: public/partials/list/style_1.php:45
+#: public/partials/list/style_2.php:49
+#: public/partials/list/style_2.php:52
+#: public/partials/list/style_3.php:55
+#: public/partials/list/style_3.php:58
+msgid "Add"
+msgstr ""
+
+#: includes/actions.php:2116
+msgid "Search Result(s)"
+msgstr ""
+
+#: includes/actions.php:2165
+msgid "No solution found."
+msgstr ""
+
+#: includes/actions.php:2167
+msgid "Didn't find solution?"
+msgstr ""
+
+#: includes/actions.php:2171
+#: includes/actions.php:2234
+msgid "Solution"
+msgstr ""
+
+#: includes/actions.php:2196
+#: includes/actions.php:2261
+#: includes/actions.php:2365
+msgid "Like"
+msgstr ""
+
+#: includes/actions.php:2197
+#: includes/actions.php:2262
+msgid "Dislike"
+msgstr ""
+
+#: includes/actions.php:2200
+#: includes/actions.php:2265
+#: includes/actions.php:2385
+msgid "Unlike"
+msgstr ""
+
+#: includes/actions.php:2407
+#: includes/actions.php:2420
+#: includes/actions.php:3814
+#: includes/actions.php:3824
+msgid "Add %s"
+msgstr ""
+
+#: includes/actions.php:2436
+#: includes/shortcodes.php:630
+#: includes/shortcodes.php:749
+#: includes/shortcodes.php:1239
+#: includes/shortcodes.php:1575
+#: public/partials/case-deflection/style_1.php:43
+#: public/partials/case-deflection/style_2.php:43
+#: public/partials/knowledgebase/style_1.php:89
+#: public/partials/knowledgebase/style_2.php:94
+msgid "Please login to portal and access this page."
+msgstr ""
+
+#: includes/actions.php:2439
+#: includes/shortcodes.php:225
+#: includes/shortcodes.php:290
+#: includes/shortcodes.php:405
+#: includes/shortcodes.php:568
+#: includes/shortcodes.php:640
+#: includes/shortcodes.php:754
+#: includes/shortcodes.php:831
+#: includes/shortcodes.php:894
+#: includes/shortcodes.php:959
+#: includes/shortcodes.php:1057
+#: includes/shortcodes.php:1179
+#: includes/shortcodes.php:1244
+#: includes/shortcodes.php:1349
+#: includes/shortcodes.php:1476
+#: includes/shortcodes.php:1580
+#: public/partials/case-deflection/style_1.php:48
+#: public/partials/case-deflection/style_2.php:48
+#: public/partials/knowledgebase/style_1.php:94
+#: public/partials/knowledgebase/style_2.php:99
+msgid "Portal is disabled. Please contact your administrator."
+msgstr ""
+
+#: includes/actions.php:2493
+#: public/assets/js/common/front-manage-page.js:337
+#: public/assets/js/common/front-manage-page.js:408
+#: public/assets/js/common/front-manage-page.js:414
+msgid "Enter atleast 3 characters to start search."
+msgstr ""
+
+#: includes/actions.php:2564
+msgid "Your password updated successfully"
+msgstr ""
+
+#: includes/actions.php:2574
+msgid "Invalid data in body."
+msgstr ""
+
+#: includes/actions.php:2624
+msgid "Your session has been expired. Please login to continue."
+msgstr ""
+
+#: includes/actions.php:2646
+msgid "Logs has beed removed successfully."
+msgstr ""
+
+#: includes/actions.php:2743
+#: includes/actions.php:3157
+#: includes/shortcodes.php:884
+msgid "Page not found."
+msgstr ""
+
+#: includes/actions.php:3057
+#: includes/actions.php:3485
+#: includes/actions.php:3490
+#: includes/actions.php:3968
+#: includes/actions.php:3977
+#: includes/actions.php:3982
+msgid "Please set layout in Salesforce."
+msgstr ""
+
+#: includes/actions.php:3085
+#: includes/actions.php:3102
+msgid "You don't have access to delete this record."
+msgstr ""
+
+#: includes/actions.php:3108
+msgid " deleted successfully."
+msgstr ""
+
+#: includes/actions.php:3812
+#: includes/actions.php:3822
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class/class-activation-deactivation.php:77
+msgid "Portal Menu"
+msgstr ""
+
+#: includes/class/class-activation-deactivation.php:79
+msgid "© "
+msgstr ""
+
+#: includes/class/class-template-functions.php:320
+msgid "Access token is not valid."
+msgstr ""
+
+#: includes/helpers/bcp-helper.php:23
+msgid "Plugin requires minimum PHP 5.0.0 to function properly. Please upgrade PHP or deactivate Plugin"
+msgstr ""
+
+#: includes/helpers/bcp-helper.php:27
+msgid "Please enable PHP CURL extension to make this plugin work."
+msgstr ""
+
+#: includes/helpers/bcp-helper.php:31
+msgid "Please enable PHP JSON extension to make this plugin work."
+msgstr ""
+
+#: includes/helpers/bcp-helper.php:161
+msgid "Email verified successfully."
+msgstr ""
+
+#: includes/helpers/bcp-helper.php:170
+msgid "Your link is expired or invalid."
+msgstr ""
+
+#: includes/page-templates/bcp-customer-portal-page-templater.php:47
+msgid "CRM Standalone"
+msgstr ""
+
+#: includes/page-templates/page-crm-standalone.php:103
+msgid "Dashboard"
+msgstr ""
+
+#: includes/shortcodes.php:92
+msgid "Select Portal Language"
+msgstr ""
+
+#: includes/shortcodes.php:95
+#: includes/shortcodes.php:337
+#: includes/shortcodes.php:461
+msgid "Submit"
+msgstr ""
+
+#: includes/shortcodes.php:220
+#: includes/shortcodes.php:285
+#: includes/shortcodes.php:400
+#: includes/shortcodes.php:563
+#: includes/shortcodes.php:635
+msgid "Please contact to administrator."
+msgstr ""
+
+#: includes/shortcodes.php:269
+msgid "Portal Sign Up"
+msgstr ""
+
+#: includes/shortcodes.php:336
+msgid "Email Address"
+msgstr ""
+
+#: includes/shortcodes.php:459
+msgid "Enter new passsword"
+msgstr ""
+
+#: includes/shortcodes.php:460
+msgid "Enter confirm password"
+msgstr ""
+
+#: includes/shortcodes.php:495
+#: includes/shortcodes.php:520
+#: public/assets/js/form/bcp-form.js:247
+#: public/assets/js/form/bcp-form.js:295
+msgid "Password must be atleast 8 character long."
+msgstr ""
+
+#: includes/shortcodes.php:502
+#: includes/shortcodes.php:525
+#: public/partials/form/style_1.php:307
+#: public/partials/form/style_2.php:307
+#: public/partials/form/style_3.php:307
+#: public/partials/profile/style_1.php:173
+#: public/partials/profile/style_2.php:173
+#: public/partials/profile/style_3.php:173
+#: public/assets/js/form/bcp-form.js:252
+#: public/assets/js/form/bcp-form.js:300
+msgid "Your password must contain at least one uppercase letter, one lowercase letter, one special character and one numeric."
+msgstr ""
+
+#: includes/shortcodes.php:512
+#: includes/shortcodes.php:540
+#: public/assets/js/form/bcp-form.js:264
+#: public/assets/js/form/bcp-form.js:308
+msgid "Password does not match."
+msgstr ""
+
+#: includes/shortcodes.php:826
+#: includes/shortcodes.php:889
+#: includes/shortcodes.php:954
+#: includes/shortcodes.php:1052
+#: includes/shortcodes.php:1173
+#: includes/shortcodes.php:1344
+#: includes/shortcodes.php:1471
+msgid "Please login first."
+msgstr ""
+
+#: includes/shortcodes.php:1091
+msgid "Recent %s"
+msgstr ""
+
+#: public/partials/case-deflection/style_1.php:34
+#: public/partials/case-deflection/style_2.php:34
+msgid "Search solution"
+msgstr ""
+
+#: public/partials/case-deflection/style_1.php:35
+#: public/partials/case-deflection/style_2.php:35
+#: public/partials/list/style_1.php:37
+#: public/partials/list/style_3.php:50
+msgid "Search"
+msgstr ""
+
+#: public/partials/counter/style_1.php:40
+#: public/partials/counter/style_1.php:41
+#: public/partials/counter/style_2.php:26
+#: public/partials/counter/style_3.php:56
+#: public/partials/counter/style_4.php:37
+#: public/partials/counter/style_5.php:25
+#: public/partials/counter/style_6.php:24
+#: public/partials/counter/style_6.php:33
+msgid "View More"
+msgstr ""
+
+#: public/partials/detail/attachment_1.php:73
+msgid "No file Chosen"
+msgstr ""
+
+#: public/partials/detail/attachment_1.php:76
+msgid "Maximum upload file size: 2MB."
+msgstr ""
+
+#: public/partials/detail/attachment_1.php:80
+msgid "Description"
+msgstr ""
+
+#: public/partials/detail/attachment_1.php:90
+#: public/partials/form/style_1.php:250
+#: public/partials/form/style_2.php:250
+#: public/partials/form/style_3.php:250
+msgid "Upload"
+msgstr ""
+
+#: public/partials/detail/casecomments_1.php:5
+#: public/partials/detail/casecomments_2.php:5
+msgid " Case Comments"
+msgstr ""
+
+#: public/partials/detail/casecomments_1.php:88
+#: public/partials/detail/casecomments_2.php:91
+#: public/partials/detail/notes_1.php:67
+#: public/partials/form/style_1.php:283
+#: public/partials/form/style_2.php:283
+#: public/partials/form/style_3.php:283
+#: public/partials/list/style_1.php:238
+#: public/partials/list/style_2.php:245
+#: public/partials/list/style_3.php:251
+msgid "Save"
+msgstr ""
+
+#: public/partials/detail/notes_1.php:51
+msgid "Title"
+msgstr ""
+
+#: public/partials/detail/order_products_1.php:19
+msgid "Item Name"
+msgstr ""
+
+#: public/partials/detail/order_products_1.php:20
+msgid "Product Code"
+msgstr ""
+
+#: public/partials/detail/order_products_1.php:21
+msgid "Quantity"
+msgstr ""
+
+#: public/partials/detail/order_products_1.php:22
+#: public/partials/form/productSelection.php:62
+msgid "Unit Price"
+msgstr ""
+
+#: public/partials/detail/order_products_1.php:23
+msgid "Total Price"
+msgstr ""
+
+#: public/partials/detail/style_1.php:88
+#: public/partials/detail/style_1.php:89
+#: public/partials/detail/style_2.php:80
+#: public/partials/list/style_1.php:361
+#: public/partials/list/style_2.php:364
+#: public/partials/list/style_3.php:361
+msgid "Edit"
+msgstr ""
+
+#: public/partials/detail/style_1.php:93
+#: public/partials/detail/style_1.php:94
+#: public/partials/detail/style_2.php:87
+#: public/partials/list/style_1.php:347
+#: public/partials/list/style_1.php:349
+#: public/partials/list/style_2.php:352
+#: public/partials/list/style_3.php:349
+msgid "Delete"
+msgstr ""
+
+#: public/partials/detail/style_1.php:123
+#: public/partials/detail/style_2.php:120
+msgid "Products"
+msgstr ""
+
+#: public/partials/detail/style_1.php:126
+#: public/partials/detail/style_2.php:123
+msgid "Case Comments"
+msgstr ""
+
+#: public/partials/detail/style_1.php:132
+#: public/partials/detail/style_2.php:129
+#: public/partials/list/style_1.php:354
+#: public/partials/list/style_1.php:356
+#: public/partials/list/style_2.php:358
+#: public/partials/list/style_3.php:355
+msgid "Solutions"
+msgstr ""
+
+#: public/partials/detail/style_1.php:135
+#: public/partials/detail/style_2.php:132
+msgid "Case Notes"
+msgstr ""
+
+#: public/partials/forgot-password/style1.php:51
+#: public/partials/login/style1.php:96
+msgid "Please select reCaptcha."
+msgstr ""
+
+#: public/partials/forgot-password/style1.php:62
+msgid "Back to Login"
+msgstr ""
+
+#: public/partials/form/productSelection.php:30
+#: public/partials/form/style_1.php:156
+#: public/partials/form/style_1.php:209
+#: public/partials/form/style_2.php:156
+#: public/partials/form/style_2.php:209
+#: public/partials/form/style_3.php:156
+#: public/partials/form/style_3.php:209
+msgid "--None--"
+msgstr ""
+
+#: public/partials/form/productSelection.php:49
+msgid "Select Product Line Items"
+msgstr ""
+
+#: public/partials/form/productSelection.php:60
+msgid "Select All"
+msgstr ""
+
+#: public/partials/form/productSelection.php:61
+msgid "Product"
+msgstr ""
+
+#: public/partials/form/productSelection.php:63
+msgid "Qty"
+msgstr ""
+
+#: public/partials/form/productSelection.php:64
+msgid "Total"
+msgstr ""
+
+#: public/partials/form/productSelection.php:72
+msgid "*Please select Pricelist to see list of products."
+msgstr ""
+
+#: public/partials/form/productSelection.php:93
+msgid "You must select at least one product from list."
+msgstr ""
+
+#: public/partials/form/style_1.php:28
+#: public/partials/form/style_2.php:28
+#: public/partials/form/style_3.php:28
+#: admin/assets/js/admin-block.js:447
+msgid "Login"
+msgstr ""
+
+#: public/partials/form/style_1.php:248
+#: public/partials/form/style_2.php:248
+#: public/partials/form/style_3.php:248
+msgid "Choose File"
+msgstr ""
+
+#: public/partials/form/style_1.php:285
+#: public/partials/form/style_2.php:285
+#: public/partials/form/style_3.php:285
+msgid "Cancel"
+msgstr ""
+
+#: public/partials/form/style_1.php:342
+#: public/partials/form/style_2.php:342
+#: public/partials/form/style_3.php:342
+msgid "Please fix this field."
+msgstr ""
+
+#: public/partials/form/style_1.php:344
+#: public/partials/form/style_2.php:344
+#: public/partials/form/style_3.php:344
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: public/partials/form/style_1.php:345
+#: public/partials/form/style_2.php:345
+#: public/partials/form/style_3.php:345
+msgid "Please enter a valid date."
+msgstr ""
+
+#: public/partials/form/style_1.php:346
+#: public/partials/form/style_2.php:346
+#: public/partials/form/style_3.php:346
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: public/partials/form/style_1.php:348
+#: public/partials/form/style_2.php:348
+#: public/partials/form/style_3.php:348
+msgid "Please enter only digits."
+msgstr ""
+
+#: public/partials/form/style_1.php:351
+#: public/partials/form/style_2.php:351
+#: public/partials/form/style_3.php:351
+msgid "Please enter the same value again."
+msgstr ""
+
+#: public/partials/global-search/style1.php:12
+msgid "How can I Help you?"
+msgstr ""
+
+#: public/partials/knowledgebase/style_1.php:80
+#: public/partials/knowledgebase/style_2.php:85
+#: public/partials/list/style_1.php:412
+#: public/partials/list/style_2.php:410
+#: public/partials/list/style_3.php:407
+msgid "No Records Found."
+msgstr ""
+
+#: public/partials/list/style_1.php:37
+#: public/partials/list/style_3.php:50
+msgid "Clear"
+msgstr ""
+
+#: public/partials/list/style_1.php:52
+#: public/partials/list/style_2.php:59
+#: public/partials/list/style_3.php:65
+msgid "Advance Filter"
+msgstr ""
+
+#: public/partials/list/style_1.php:239
+#: public/partials/list/style_2.php:246
+#: public/partials/list/style_3.php:252
+msgid "Reset"
+msgstr ""
+
+#: public/partials/list/style_1.php:287
+#: public/partials/list/style_2.php:295
+#: public/partials/list/style_3.php:301
+msgid "Actions"
+msgstr ""
+
+#: public/partials/list/style_1.php:338
+#: public/partials/list/style_2.php:344
+msgid "N/A"
+msgstr ""
+
+#: public/partials/list/style_1.php:385
+#: public/partials/list/style_1.php:387
+#: public/partials/list/style_2.php:385
+#: public/partials/list/style_3.php:382
+msgid "Close"
+msgstr ""
+
+#: public/partials/list/style_1.php:393
+#: public/partials/list/style_1.php:395
+#: public/partials/list/style_2.php:392
+#: public/partials/list/style_3.php:389
+msgid "Re-open"
+msgstr ""
+
+#: public/partials/login/style1.php:39
+msgid "Too many login attempts. Please try again after: "
+msgstr ""
+
+#: public/partials/login/style1.php:67
+msgid "Enter OTP"
+msgstr ""
+
+#: public/partials/login/style1.php:69
+msgid "Resend OTP"
+msgstr ""
+
+#: public/partials/login/style1.php:85
+msgid "Forgot password"
+msgstr ""
+
+#: public/partials/login/style1.php:85
+msgid "Forgot password?"
+msgstr ""
+
+#: public/partials/login/style1.php:109
+msgid "Back To Login"
+msgstr ""
+
+#: public/partials/login/style1.php:114
+msgid "Sign Up Now!"
+msgstr ""
+
+#: public/partials/profile/style_1.php:165
+#: public/partials/profile/style_2.php:165
+#: public/partials/profile/style_3.php:165
+msgid "Old Password"
+msgstr ""
+
+#: public/partials/profile/style_1.php:165
+#: public/partials/profile/style_2.php:165
+#: public/partials/profile/style_3.php:165
+msgid "Enter your current password."
+msgstr ""
+
+#: public/partials/profile/style_1.php:173
+#: public/partials/profile/style_2.php:173
+#: public/partials/profile/style_3.php:173
+msgid "New Password"
+msgstr ""
+
+#: public/partials/profile/style_1.php:181
+#: public/partials/profile/style_2.php:181
+#: public/partials/profile/style_3.php:181
+msgid "Confirm Password"
+msgstr ""
+
+#: public/partials/profile/style_1.php:181
+#: public/partials/profile/style_2.php:181
+#: public/partials/profile/style_3.php:181
+msgid "Retype new password."
+msgstr ""
+
+#: public/partials/recent_activity/style_1.php:91
+#: public/partials/recent_activity/style_2.php:82
+#: public/partials/recent_activity/style_3.php:93
+#: public/partials/recent_activity/style_4.php:77
+#: public/partials/recent_activity/style_5.php:78
+msgid "View All"
+msgstr ""
+
+#: public/partials/recent_activity/style_1.php:95
+#: public/partials/recent_activity/style_2.php:86
+#: public/partials/recent_activity/style_3.php:97
+#: public/partials/recent_activity/style_4.php:81
+#: public/partials/recent_activity/style_5.php:82
+msgid "No Records."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:336
+msgid "Registration"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:384
+msgid "Registration "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:388
+msgid "Registration Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:398
+#: admin/assets/js/admin-block.js:567
+#: admin/assets/js/admin-block.js:658
+msgid "Enable Recaptcha ?"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:403
+#: admin/assets/js/admin-block.js:572
+#: admin/assets/js/admin-block.js:663
+msgid "Recaptcha will be enabled on this page."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:403
+#: admin/assets/js/admin-block.js:572
+#: admin/assets/js/admin-block.js:663
+msgid "Recaptcha will not be enabled on this page."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:409
+#: admin/assets/js/admin-block.js:855
+#: admin/assets/js/admin-block.js:930
+#: admin/assets/js/admin-block.js:1000
+#: admin/assets/js/admin-block.js:1130
+#: admin/assets/js/admin-block.js:1568
+#: admin/assets/js/admin-block.js:1854
+#: admin/assets/js/admin-block.js:2049
+#: admin/assets/js/admin-block.js:2144
+#: admin/assets/js/admin-block.js:2283
+msgid "Select view style"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:511
+msgid "Salesforce Login"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:515
+msgid "Username Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:525
+msgid "Password Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:535
+msgid "Login Button Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:545
+msgid "Enable Forget password?"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:550
+msgid "Forget password page link will be visible."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:550
+msgid "Forget password page link will not be visible."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:556
+msgid "Enable signup?"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:561
+msgid "Portal Registration page link will be visible."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:561
+msgid "Portal Registration page link will not be visible."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:589
+msgid "Forget Password"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:624
+msgid "Portal Forget Password"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:634
+msgid "Salesforce Forget Password"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:638
+msgid "Email Label "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:648
+#: admin/assets/js/admin-block.js:753
+msgid "Submit Button Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:680
+msgid "Reset Password"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:729
+msgid "Salesforce Reset Password"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:733
+msgid "New Password Label "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:743
+msgid "Confirm Password Label "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:775
+msgid "List Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:805
+msgid "Portal Listing"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:815
+msgid "Listing"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:819
+#: admin/assets/js/admin-block.js:2166
+#: admin/assets/js/admin-block.js:2305
+msgid "Records show at most"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:893
+msgid "Detail Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:916
+msgid "Portal Detail Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:926
+msgid "Detail Block "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:963
+msgid "Manage Block (Add-Edit)"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:986
+msgid "Portal Manage Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:996
+msgid "Manage Block "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1038
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1076
+msgid "Portal Edit Profile"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1086
+msgid "Edit Profile Block "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1090
+msgid "Edit Profile Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1100
+msgid "Change Password Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1110
+msgid "Edit Profile : Button Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1120
+msgid "Change Password : Button Label"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1168
+msgid "Global Search"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1187
+msgid "Portal Global Search"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1202
+#: admin/assets/js/admin-block.js:1221
+msgid "Portal Content Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1237
+#: admin/assets/js/admin-block.js:1501
+msgid "Counter Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1505
+msgid "Counter title"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1515
+#: admin/assets/js/admin-block.js:1791
+#: admin/assets/js/admin-block.js:2011
+#: admin/assets/js/admin-block.js:2387
+msgid "Select Module"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1541
+msgid "Select Field"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1555
+msgid "Select field value"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1609
+msgid "Select Icon"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1616
+msgid "Color Settings"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1622
+msgid "Background color"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1630
+msgid "Background Hover color"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1638
+msgid "Font color"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1646
+msgid "Font hover color"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1667
+#: admin/assets/js/admin-block.js:1777
+msgid "Recent Activity"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1767
+msgid "Portal Recent Activity"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1781
+msgid "Module Heading"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1818
+msgid "Select Field 1 (Any field informative)"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1824
+msgid "Select Field 1 Any Informative Fields"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1830
+msgid "Select Field 2 (Dropdown field)"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1836
+msgid "Select Field 2 Any Dropdown Fields"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1842
+msgid "Select Field 3 (Date field)"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1848
+msgid "Select Field 3 Any Date Fields"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1917
+msgid "Chart Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1989
+msgid "Portal Chart Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:1997
+msgid "Chart Block "
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2001
+msgid "Chart title"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2036
+msgid "Select Fields"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2080
+msgid "Enable Legend?"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2085
+msgid "Legend will be enabled on this block."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2085
+msgid "Legend will not be enabled on this block."
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2103
+msgid "Knowledge base Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2130
+msgid "Portal Knowledge Base Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2140
+msgid "Knowledge Base Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2214
+#: admin/assets/js/admin-block.js:2259
+msgid "Case Deflection Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2249
+msgid "Portal Case Deflection Block"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2263
+msgid "Description text"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2273
+msgid "Add Case Heading"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2364
+#: admin/assets/js/admin-block.js:2369
+msgid "Select Page Type"
+msgstr ""
+
+#: admin/assets/js/admin-block.js:2381
+msgid "You can define any type of portal page. This will directly reflect on portal side."
+msgstr ""
+
+#: public/assets/js/common/front-manage-page.js:148
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: public/assets/js/common/front-manage-page.js:235
+msgid "Are you sure you want to close this record?"
+msgstr ""
+
+#: public/assets/js/common/front-manage-page.js:241
+msgid "Are you sure you want to re-open this record?"
+msgstr ""
+
+#: public/assets/js/common/front-manage-page.js:629
+msgid "Please add any one filter."
+msgstr ""
+
+#: public/assets/js/form/bcp-form.js:374
+msgid "Maximum file upload size limit is 2 MB."
+msgstr ""
+
+#: public/assets/js/form/bcp-form.js:379
+msgid "Only [jpg, jpeg, png, gif, doc, docx, pdf, txt, csv, xls, xlsx, zip] file formats allowed."
+msgstr ""
+
+#: public/assets/js/form/bcp-form.js:456
+msgid "Load More"
+msgstr ""
