@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+table#custom-the-list {
+width: 100%;
+}
+td.custom-left {
+    width: 30%;
+}
+table#custom-the-list td input {
+    width: 100%;
+}

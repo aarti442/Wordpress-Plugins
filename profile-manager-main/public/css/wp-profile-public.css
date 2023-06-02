@@ -1,0 +1,92 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.clr-yellow { color : #deb217 !important}
+
+table .rate label {
+    max-width: 20px !important;
+    font-size: 20px !important;
+    pointer-events: none;
+}
+.pagination {
+    font-size: 20px;
+}
+
+.page-numbers {
+    color: #000 !important;
+}
+.page-numbers {
+    color: #000 !important;
+    border: 1px solid #a19494;
+    padding: 6px 15px;
+    border-radius: 48px;
+    margin-right: 10px;
+}
+.current{
+    background: #007bff;
+    color: #fff !important;
+    pointer-events: none;
+}
+li.profile-action {
+    margin: 7px;
+    cursor:pointer;
+}
+
+span.page-numbers.dots {
+    pointer-events: none;
+}
+
+.form-group .rating-label {
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+}
+.table-bordered thead th {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.profile-action span.dashicons{
+    cursor: pointer;
+}
